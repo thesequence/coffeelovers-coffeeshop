@@ -6,14 +6,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Coffee Lovers</title>
 
-        <link rel="stylesheet" href="./css/swiper.css" />
+        <!-- SWIPER -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+        <!-- Font Awesome CDN Link  -->
         <link
             rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         />
 
-        <link rel="stylesheet" href="./css/style.css" />
-        <script src="./script/swipe.js" defer></script>
+        <!-- Custom CSS File Link  -->
+        <link rel="stylesheet" href="css/style.css" />
+        <!-- SWIPER -->
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js" defer></script>
         <script src="./script/script.js" defer></script>
     </head>
     <body>
@@ -88,10 +93,168 @@
                 </div>
             </div>
         </section>
+        <!-- MENU -->
+        <section class="menu" id="menu">
+            <h1 class="heading">our menu <span>popular menu</span></h1>
 
-        <section class="menu" id="menu"></section>
+            <div class="box-container">
+                <a href="#" class="box">
+                    <img src="image/menu-1.png" alt="" />
+                    <div class="content">
+                        <h3>Mocha Madness Delight</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, sed.
+                        </p>
+                        <span>$4.75</span>
+                    </div>
+                </a>
 
-        <section class="review" id="review"></section>
+                <a href="#" class="box">
+                    <img src="image/menu-2.png" alt="" />
+                    <div class="content">
+                        <h3>Velvet Espresso Bliss</h3>
+                        <p>
+                            Dive into the madness of chocolate and coffee bliss with our decadent
+                            mocha delight, a treat for your taste buds.
+                        </p>
+                        <span>$3.50</span>
+                    </div>
+                </a>
+
+                <a href="#" class="box">
+                    <img src="image/menu-3.png" alt="" />
+                    <div class="content">
+                        <h3>Caramel Dream Latte</h3>
+                        <p>
+                            Indulge in the dreamy blend of smooth espresso and luscious caramel,
+                            topped with frothy milk.
+                        </p>
+                        <span>$4.00</span>
+                    </div>
+                </a>
+
+                <a href="#" class="box">
+                    <img src="image/menu-4.png" alt="" />
+                    <div class="content">
+                        <h3>Hazelnut Symphony Brew</h3>
+                        <p>
+                            Immerse yourself in the symphony of flavors with our hazelnut-infused
+                            brew, a perfect harmony of nuttiness and coffee richness.
+                        </p>
+                        <span>$4.50</span>
+                    </div>
+                </a>
+
+                <a href="#" class="box">
+                    <img src="image/menu-5.png" alt="" />
+                    <div class="content">
+                        <h3>Vanilla Euphoria Macchiato</h3>
+                        <p>
+                            Experience pure euphoria with our vanilla-infused macchiato, a
+                            delightful balance of espresso and creamy vanilla sweetness.
+                        </p>
+                        <span>$4.20</span>
+                    </div>
+                </a>
+
+                <a href="#" class="box">
+                    <img src="image/menu-6.png" alt="" />
+                    <div class="content">
+                        <h3>Coconut Serenity Cold Brew</h3>
+                        <p>
+                            Discover serenity in every sip with our refreshing cold brew infused
+                            with the tropical essence of coconut, a cool escape on a warm day.
+                        </p>
+                        <span>$5.00</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <!-- REVIEW -->
+        <section class="review" id="review">
+            <h1 class="heading">reviews <span>what people says</span></h1>
+
+            <div class="swiper review-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide box">
+                        <i class="fas fa-quote-left"></i>
+                        <i class="fas fa-quote-right"></i>
+                        <img src="image/pic-1.png" alt="" />
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, earum
+                            quis dolorem quaerat tenetur illum.
+                        </p>
+                        <h3>john deo</h3>
+                        <span>satisfied client</span>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <i class="fas fa-quote-left"></i>
+                        <i class="fas fa-quote-right"></i>
+                        <img src="image/pic-2.png" alt="" />
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum optio
+                            quasi ut, illo ipsam assumenda.
+                        </p>
+                        <h3>john deo</h3>
+                        <span>satisfied client</span>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <i class="fas fa-quote-left"></i>
+                        <i class="fas fa-quote-right"></i>
+                        <img src="image/pic-3.png" alt="" />
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius asperiores
+                            aliquam hic quis! Eligendi, aliquam.
+                        </p>
+                        <h3>john deo</h3>
+                        <span>satisfied client</span>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <i class="fas fa-quote-left"></i>
+                        <i class="fas fa-quote-right"></i>
+                        <img src="image/pic-4.png" alt="" />
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi modi
+                            perspiciatis distinctio velit aliquid a.
+                        </p>
+                        <h3>john deo</h3>
+                        <span>satisfied client</span>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
 
         <section class="book" id="book"></section>
 
